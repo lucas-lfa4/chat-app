@@ -29,3 +29,4 @@ Scenario: Envio de mensagem de texto sem sucesso (Sad Path)
 	When Eu envio uma mensagem "Olá, joão!"
 	Then A mensagem deve aparecer na minha tela com um ícone de "relógio" (pendente de envio)
 	And a mensagem deve ser enviada automaticamente pelo sistema assim que a internet for restabelecida
+	
